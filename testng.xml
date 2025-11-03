@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="ParallelBrowserSuite" parallel="tests" thread-count="2">
+
+    <!-- Allure Listener -->
+    <listeners>
+        <listener class-name="reports.TestListener"/>
+    </listeners>
+
+    <!-- Chrome Tests -->
+    <test name="ChromeTest">
+        <parameter name="browser" value="chrome"/>
+        <packages>
+            <package name="tests"/>
+        </packages>
+    </test>
+
+    <!-- Firefox Tests -->
+    <test name="FirefoxTest">
+        <parameter name="browser" value="firefox"/>
+        <packages>
+            <package name="tests"/>
+        </packages>
+    </test>
+<!-- Edge Tests -->
+    <test name="EdgeTest">
+        <parameter name="browser" value="edge"/>
+        <packages>
+            <package name="tests"/>
+        </packages>
+    </test>
+   <!-- Edge Tests -->
+</suite>

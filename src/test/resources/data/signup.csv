@@ -1,0 +1,2 @@
+username,password,repeatedPassword,firstName,lastName,email,phone,address1,address2,city,state,zip,country,testType,expectedResult
+testusersjosfojfsjo,Password123,Password123,John,Doe,john.doe@example.com,1234567890,"123 Main St, Block A",Apt 4B,New York,NY,10001,USA,positive,passed

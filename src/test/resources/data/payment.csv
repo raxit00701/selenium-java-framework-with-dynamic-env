@@ -1,0 +1,4 @@
+cardNumber,expiry,firstName,lastName,address1,address2,city,state,zip,country
+4111111111111111,12/26,John,Doe,123 Elm St,Apt 4B,New York,NY,10001,USA
+5555555555554444,11/25,Jane,Smith,456 Oak Rd,,Los Angeles,CA,90001,USA
+1234567890123456,01/24,Broken,Card,789 Pine Ln,,Chicago,IL,60601,USA

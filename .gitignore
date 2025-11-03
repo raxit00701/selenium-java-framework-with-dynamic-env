@@ -1,0 +1,14 @@
+# Maven target folder
+target/
+
+# Allure results & reports
+allure-results/
+allure-report/
+.allure/
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Logs
+*.log

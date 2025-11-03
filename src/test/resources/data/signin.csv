@@ -1,0 +1,2 @@
+username,password,testType,expectedResult
+validuser1,Password123,positive,
